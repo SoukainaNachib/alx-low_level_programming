@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - entry poit
- * return: always 0 (success)
+ * main - prints the phase with proper grammar,
+ * but the outcome is pieace of art,
+ * Return: 0 if exited properly, non-zero otherwise
  */
 int main(void)
 {
