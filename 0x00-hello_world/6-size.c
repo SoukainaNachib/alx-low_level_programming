@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
 *main - print the size of various types on the computer
 *it is compiled and run on,
@@ -13,4 +14,3 @@ int main(void)
 	printf("Size of a float: %lu byte(s)\n", sizeof(float));
 	return (0);
 }
-
