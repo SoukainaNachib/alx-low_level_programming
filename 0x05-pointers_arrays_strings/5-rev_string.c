@@ -8,7 +8,7 @@
   */
 void rev_string(char *s)
 {
-	int i, c, k;
+	int i, c, m;
 	char *a, aux;
 
 	a = s;
@@ -18,7 +18,7 @@ void rev_string(char *s)
 		c++;
 	}
 
-	for (k = 1; k < c; k++)
+	for (m = 1; m < c; m++)
 	{
 		a++;
 	}
