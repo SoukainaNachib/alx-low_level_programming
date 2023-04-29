@@ -14,14 +14,16 @@
  */
 size_t print_listint(const listint_t *h)
 {
-	size_t nodes = 0;
+	const listint_t *tp;
+	unsigned int cntr = 0;
 
-	while (h)
+	tp = h;
+	while (tp)
 	{
-		nodes++;
-		printf("%d/n", h->n);
-		h = h->next;
+		printf("%d/n", tp->n);
+		cntr++;
+		tp = tp->next;
 	}
 
-	return (nodes);
+	return (cntr);
 }
