@@ -1,8 +1,3 @@
-/*
- * File: 101-quote.c
- * Authr: Solomon kassa
- */
-
 #include <unistd.h>
 
 /**

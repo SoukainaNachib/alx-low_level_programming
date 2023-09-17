@@ -1,8 +1,3 @@
-/*
- * File: 6-size.c
- * Auth: Solomon kassa
- */
-
 #include <stdio.h>
 
 /**
